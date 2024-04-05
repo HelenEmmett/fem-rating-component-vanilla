@@ -1,0 +1,99 @@
+/* variables */
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --mid-grey: hsl(216, 12%, 54%);
+    --blue: hsl(213, 19%, 18%);
+    --gradient: linear-gradient(#1f242d, #161d28);
+    --dark-blue: hsl(216, 12%, 8%);
+    --bold: 700;
+    --regular: 400;
+}
+
+
+/* reset styles */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Typography styles */
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-weight: 700;
+    color: var(--white);
+}
+
+h1 {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* global styles */
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 100%;
+    color: var(--light-grey);
+    background-color: var(--dark-blue);
+}
+
+.container {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    max-width: 326px;
+    height: 360px;
+    background-image: var(--gradient);
+    background-color: var(--blue);
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.icon-star {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: var(--blue);
+    padding: 14px;
+    margin-bottom: 20px;
+}
+
+#thankyou-state {
+    display: none;
+    visibility: hidden;
+}
+
+/* footer */
+.attribution {
+    padding-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+    .attribution a {
+        color: var(--mid-grey);
+    }
