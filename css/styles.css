@@ -66,24 +66,34 @@ body {
 }
 
 .main {
-    max-width: 326px;
+    position: relative;
+    width: 326px;
     height: 360px;
-    background-image: var(--gradient);
-    background-color: var(--blue);
-    border-radius: 12px;
-    padding: 22px 22px 30px 22px;
 }
 
 #rating-state, #thankyou-state {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     align-content: space-between;
     height: 100%;
     flex-wrap: wrap;
+    transition: transform ease-out .6s;
+    background-image: var(--gradient);
+    background-color: var(--blue);
+    border-radius: 12px;
+    padding: 22px 22px 30px 22px;
+    webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 #thankyou-state {
-    display: none;
-    visibility: hidden;
     padding-top: 14px;
 }
 
@@ -112,6 +122,13 @@ body {
         background-color: var(--white);
         color: var(--orange);
     }
+
+.error {
+    color: var(--orange);
+    display: none;
+    text-align: center;
+    width: 100%;
+}
 
 .icon-thank-you {
     width: 100%;
@@ -201,11 +218,12 @@ body {
     }
 
     .main {
-        max-width: 412px;
+        width: 412px;
         height: 414px;
+    }
+    #rating-state, #thankyou-state {
         padding: 34px;
     }
-
     .icon-star {
         width: 50px;
         height: 50px;
