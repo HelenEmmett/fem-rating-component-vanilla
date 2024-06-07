@@ -100,11 +100,12 @@ body {
     border-radius: 100px;
     border: none;
     background-color: var(--orange);
-    color: var(--white);
+    color: var(--dark-blue);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 14px;
+    font-weight: var(--bold);
 }
 
     .btn:hover {
