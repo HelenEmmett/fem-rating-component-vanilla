@@ -1,10 +1,12 @@
 /* Screen sizes over 600px, tablet and large phones */
 @media only screen and (min-width: 37.5rem) {
+    body {
+        font-size: 15px;
+    }
+    .main {
+        max-width: 412px;
+        height: 414px;
+        padding: 32px;
+    }
     
-}
-
-/* Screen sizes over 1150px, laptops and desktops */
-@media only screen and (min-width: 71.875rem) {
-
-
 }

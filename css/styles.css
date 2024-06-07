@@ -84,6 +84,7 @@ body {
 #thankyou-state {
     display: none;
     visibility: hidden;
+    padding-top: 14px;
 }
 
 .icon-star {
@@ -111,8 +112,28 @@ body {
         color: var(--orange);
     }
 
-/* radio buttons */
+.icon-thank-you {
+    width: 100%;
+}
+.icon-thank-you img {
+    width: 50%;
+    margin: 0 auto;
+}
 
+#thankyou-state h1, #thankyou-state p {
+    text-align: center;
+}
+
+#rating-score {
+    background: var(--blue);
+    color: var(--orange);
+    padding: 6px 16px 4px 16px;
+    border-radius: 999px;
+    margin: 0 auto;
+}
+
+
+/* radio buttons */
 .rating-container {
     display: flex;
     justify-content: space-between;
