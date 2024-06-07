@@ -128,7 +128,7 @@ body {
     background: var(--blue);
     color: var(--orange);
     padding: 6px 16px 4px 16px;
-    border-radius: 999px;
+    border-radius: 100px;
     margin: 0 auto;
 }
 
@@ -188,3 +188,36 @@ body {
     .attribution a {
         color: var(--mid-grey);
     }
+
+/* Screen sizes over 600px, tablet and large phones */
+@media only screen and (min-width: 37.5rem) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .main {
+        max-width: 412px;
+        height: 414px;
+        padding: 34px;
+    }
+
+    .icon-star {
+        width: 50px;
+        height: 50px;
+        padding: 14px;
+    }
+
+    .rating-radio {
+        width: 52px;
+        height: 52px;
+        line-height: 52px;
+    }
+
+    .btn {
+        padding: 16px;
+    }
+}
