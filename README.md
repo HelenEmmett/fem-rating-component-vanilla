@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [View the live solution](https://helenemmett.github.io/fem-rating-component-vanilla/)
 
 ## My process
 
