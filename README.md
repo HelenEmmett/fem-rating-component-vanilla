@@ -26,7 +26,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Vanilla JavaScript
+- CSS backface-visibility for rotating card
   
 ### What I learned
 
-This was a practice project from Frontend mentor. I'm using these to get in the habbit of regularly brushing up on CSS, HTML and JavaScript.
+This was a practice project from Frontend mentor. I'm using these to get in the habit of regularly brushing up on CSS, HTML and JavaScript.
